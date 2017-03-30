@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC911DBF1E8CD2050065CC2C /* RGB.h in Headers */ = {isa = PBXBuildFile; fileRef = DC911DB11E8CD2050065CC2C /* RGB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC911DCA1E8CD78F0065CC2C /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC911DC91E8CD78F0065CC2C /* Curry.framework */; };
+		DC911DE71E8CE1910065CC2C /* RGBUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC911DE61E8CE1910065CC2C /* RGBUIColor.swift */; };
+		DC911DF11E8CE5070065CC2C /* RGBTests2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC911DF01E8CE5070065CC2C /* RGBTests2.swift */; };
+		DC911DF31E8CE5070065CC2C /* RGB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC911DAE1E8CD2050065CC2C /* RGB.framework */; };
+		DC911DFB1E8CE56C0065CC2C /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC911DF91E8CE56C0065CC2C /* Nimble.framework */; };
+		DC911DFC1E8CE56C0065CC2C /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC911DFA1E8CE56C0065CC2C /* Quick.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC911DF41E8CE5070065CC2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC911DA51E8CD2050065CC2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC911DAD1E8CD2050065CC2C;
+			remoteInfo = RGB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC911DAE1E8CD2050065CC2C /* RGB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RGB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC911DB11E8CD2050065CC2C /* RGB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGB.h; sourceTree = "<group>"; };
+		DC911DB21E8CD2050065CC2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC911DC91E8CD78F0065CC2C /* Curry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Curry.framework; path = "Carthage/Checkouts/Curry/build/Debug-iphoneos/Curry.framework"; sourceTree = "<group>"; };
+		DC911DCB1E8CD7AC0065CC2C /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Carthage/Checkouts/Nimble/build/Debug-iphoneos/Nimble.framework"; sourceTree = "<group>"; };
+		DC911DCC1E8CD7AC0065CC2C /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "Carthage/Checkouts/Quick/build/Debug-iphoneos/Quick.framework"; sourceTree = "<group>"; };
+		DC911DCF1E8CDE950065CC2C /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Carthage/Checkouts/Nimble/build/Debug-iphoneos/Nimble.framework"; sourceTree = "<group>"; };
+		DC911DD01E8CDE950065CC2C /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "Carthage/Checkouts/Quick/build/Debug-iphoneos/Quick.framework"; sourceTree = "<group>"; };
+		DC911DE21E8CE0390065CC2C /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Carthage/Checkouts/Nimble/build/Debug-iphoneos/Nimble.framework"; sourceTree = "<group>"; };
+		DC911DE31E8CE0390065CC2C /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "Carthage/Checkouts/Quick/build/Debug-iphoneos/Quick.framework"; sourceTree = "<group>"; };
+		DC911DE61E8CE1910065CC2C /* RGBUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBUIColor.swift; sourceTree = "<group>"; };
+		DC911DEE1E8CE5070065CC2C /* RGBTests2.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RGBTests2.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC911DF01E8CE5070065CC2C /* RGBTests2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBTests2.swift; sourceTree = "<group>"; };
+		DC911DF21E8CE5070065CC2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC911DF91E8CE56C0065CC2C /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "../../Library/Developer/Xcode/DerivedData/RGB-amcbqykgpomiupajmexoxhsbcvxn/Build/Products/Debug-iphonesimulator/Nimble.framework"; sourceTree = "<group>"; };
+		DC911DFA1E8CE56C0065CC2C /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "../../Library/Developer/Xcode/DerivedData/RGB-amcbqykgpomiupajmexoxhsbcvxn/Build/Products/Debug-iphonesimulator/Quick.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC911DAA1E8CD2050065CC2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC911DCA1E8CD78F0065CC2C /* Curry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC911DEB1E8CE5070065CC2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC911DFB1E8CE56C0065CC2C /* Nimble.framework in Frameworks */,
+				DC911DFC1E8CE56C0065CC2C /* Quick.framework in Frameworks */,
+				DC911DF31E8CE5070065CC2C /* RGB.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC911DA41E8CD2050065CC2C = {
+			isa = PBXGroup;
+			children = (
+				DC911DB01E8CD2050065CC2C /* RGB */,
+				DC911DEF1E8CE5070065CC2C /* RGBTests2 */,
+				DC911DAF1E8CD2050065CC2C /* Products */,
+				DC911DC81E8CD78F0065CC2C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC911DAF1E8CD2050065CC2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC911DAE1E8CD2050065CC2C /* RGB.framework */,
+				DC911DEE1E8CE5070065CC2C /* RGBTests2.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC911DB01E8CD2050065CC2C /* RGB */ = {
+			isa = PBXGroup;
+			children = (
+				DC911DB11E8CD2050065CC2C /* RGB.h */,
+				DC911DB21E8CD2050065CC2C /* Info.plist */,
+				DC911DE61E8CE1910065CC2C /* RGBUIColor.swift */,
+			);
+			path = RGB;
+			sourceTree = "<group>";
+		};
+		DC911DC81E8CD78F0065CC2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC911DF91E8CE56C0065CC2C /* Nimble.framework */,
+				DC911DFA1E8CE56C0065CC2C /* Quick.framework */,
+				DC911DE21E8CE0390065CC2C /* Nimble.framework */,
+				DC911DE31E8CE0390065CC2C /* Quick.framework */,
+				DC911DCF1E8CDE950065CC2C /* Nimble.framework */,
+				DC911DD01E8CDE950065CC2C /* Quick.framework */,
+				DC911DCB1E8CD7AC0065CC2C /* Nimble.framework */,
+				DC911DCC1E8CD7AC0065CC2C /* Quick.framework */,
+				DC911DC91E8CD78F0065CC2C /* Curry.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC911DEF1E8CE5070065CC2C /* RGBTests2 */ = {
+			isa = PBXGroup;
+			children = (
+				DC911DF01E8CE5070065CC2C /* RGBTests2.swift */,
+				DC911DF21E8CE5070065CC2C /* Info.plist */,
+			);
+			path = RGBTests2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DC911DAB1E8CD2050065CC2C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC911DBF1E8CD2050065CC2C /* RGB.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DC911DAD1E8CD2050065CC2C /* RGB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC911DC21E8CD2050065CC2C /* Build configuration list for PBXNativeTarget "RGB" */;
+			buildPhases = (
+				DC911DA91E8CD2050065CC2C /* Sources */,
+				DC911DAA1E8CD2050065CC2C /* Frameworks */,
+				DC911DAB1E8CD2050065CC2C /* Headers */,
+				DC911DAC1E8CD2050065CC2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RGB;
+			productName = RGB;
+			productReference = DC911DAE1E8CD2050065CC2C /* RGB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC911DED1E8CE5070065CC2C /* RGBTests2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC911DF61E8CE5070065CC2C /* Build configuration list for PBXNativeTarget "RGBTests2" */;
+			buildPhases = (
+				DC911DEA1E8CE5070065CC2C /* Sources */,
+				DC911DEB1E8CE5070065CC2C /* Frameworks */,
+				DC911DEC1E8CE5070065CC2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC911DF51E8CE5070065CC2C /* PBXTargetDependency */,
+			);
+			name = RGBTests2;
+			productName = RGBTests2;
+			productReference = DC911DEE1E8CE5070065CC2C /* RGBTests2.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC911DA51E8CD2050065CC2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Holmusk;
+				TargetAttributes = {
+					DC911DAD1E8CD2050065CC2C = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 785WJQ47KY;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					DC911DED1E8CE5070065CC2C = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 785WJQ47KY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DC911DA81E8CD2050065CC2C /* Build configuration list for PBXProject "RGB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC911DA41E8CD2050065CC2C;
+			productRefGroup = DC911DAF1E8CD2050065CC2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC911DAD1E8CD2050065CC2C /* RGB */,
+				DC911DED1E8CE5070065CC2C /* RGBTests2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC911DAC1E8CD2050065CC2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC911DEC1E8CE5070065CC2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC911DA91E8CD2050065CC2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC911DE71E8CE1910065CC2C /* RGBUIColor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC911DEA1E8CE5070065CC2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC911DF11E8CE5070065CC2C /* RGBTests2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC911DF51E8CE5070065CC2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC911DAD1E8CD2050065CC2C /* RGB */;
+			targetProxy = DC911DF41E8CE5070065CC2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DC911DC01E8CD2050065CC2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC911DC11E8CD2050065CC2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC911DC31E8CD2050065CC2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 785WJQ47KY;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RGB/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.holmusk.RGB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DC911DC41E8CD2050065CC2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 785WJQ47KY;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RGB/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.holmusk.RGB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DC911DF71E8CE5070065CC2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 785WJQ47KY;
+				INFOPLIST_FILE = RGBTests2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.holmusk.RGBTests2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DC911DF81E8CE5070065CC2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 785WJQ47KY;
+				INFOPLIST_FILE = RGBTests2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.holmusk.RGBTests2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC911DA81E8CD2050065CC2C /* Build configuration list for PBXProject "RGB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC911DC01E8CD2050065CC2C /* Debug */,
+				DC911DC11E8CD2050065CC2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC911DC21E8CD2050065CC2C /* Build configuration list for PBXNativeTarget "RGB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC911DC31E8CD2050065CC2C /* Debug */,
+				DC911DC41E8CD2050065CC2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC911DF61E8CE5070065CC2C /* Build configuration list for PBXNativeTarget "RGBTests2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC911DF71E8CE5070065CC2C /* Debug */,
+				DC911DF81E8CE5070065CC2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC911DA51E8CD2050065CC2C /* Project object */;
+}
